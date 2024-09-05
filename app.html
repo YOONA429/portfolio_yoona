@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{margin: 0; padding: 0;}
+        img{vertical-align: top;}
+
+        div{
+            width: 1400px;
+            margin: 0 auto;
+        }
+        div img{
+            width: 100%;
+        }
+        .moveWrap{
+            position: relative;
+        }
+        .moveWrap .move{
+            position: absolute;
+            top: 182px; left: 569px;
+
+            width: 275px; height: 590px;
+        }
+        .move_01{
+            position: relative;
+        }
+        .downArrow{
+            position: absolute;
+            top: 330px; right: 400px;
+            width: 50px; height: auto;
+        }
+
+    </style>
+    
+</head>
+<body>
+    <div class="move_01">
+        <img src="images/app_01.jpg">
+        <img src="images/gif_02.gif" class="downArrow">
+    </div>
+    <div><img src="images/app_02.jpg"></div>
+    <div><img src="images/app_03.jpg"></div>
+    <div class="moveWrap">
+        <img src="images/app_04.jpg">
+        <img src="images/gif_01.gif" class="move">
+    </div>
+    
+    
+</body>
+</html>
