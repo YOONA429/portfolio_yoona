@@ -43,7 +43,9 @@ section{}
     margin-bottom: 73px;
     position: relative;
 }
-.container .cont1 .web_wrap .cont_wrap>div .computer img{}
+.container .cont1 .web_wrap .cont_wrap>div .computer img{
+    width: 344px; height: auto;
+}
 .container .cont1 .web_wrap .cont_wrap>div .computer .result{
     margin-top: 65px;
     height: 53px;
